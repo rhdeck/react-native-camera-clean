@@ -1,0 +1,31 @@
+{
+  "name": "react-native-camera-clean",
+  "version": "1.0.0",
+  "description": "Clean the face detection from react-native-camera",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhdeck/react-native-camera-clean.git"
+  },
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhdeck/react-native-camera-clean/issues"
+  },
+  "homepage": "https://github.com/rhdeck/react-native-camera-clean#readme",
+  "rnpm": {
+    "commands": {
+      "prelink": "node node_modules/react-native-camera-clean/prelink.js"
+    }
+  },
+  "peerDependencies": {
+    "react-native-camera": "*"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "rimraf": "^2.6.2",
+    "xcode": "rhdeck/cordova-node-xcode"
+  }
+}
